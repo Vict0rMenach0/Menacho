@@ -6,14 +6,14 @@ public class Menacho {
     private static Scanner teclado = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.print("Introduzca el primer número: ");
+        System.out.print("Escriba el primer número: ");
         int numero1 = teclado.nextInt();
         
-        System.out.print("Introduzca el segundo número: ");
-        int NUMERO2 = teclado.nextInt();
+        System.out.print("Escriba el segundo número: ");
+        int numero2 = teclado.nextInt();
         
-        int resultado = numero1 + NUMERO2;
+        int resul = numero1 + numero2;
         
-        System.out.println("La suma de " + numero1 + " y " + NUMERO2 + " es: " + resultado);
+        System.out.println("La suma de " + numero1 + " y " + numero2 + " es: " + resul);
     }
 }
